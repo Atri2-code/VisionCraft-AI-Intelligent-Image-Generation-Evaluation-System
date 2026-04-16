@@ -33,3 +33,14 @@ An end-to-end Generative AI system that enhances prompts, generates multiple ima
 ---
 
 ## 📂 Project Structure
+visioncraft-ai/
+│
+├── app.py                # Main application (Gradio UI + pipeline)
+├── config.py             # Configuration (model, device, parameters)
+├── utils.py              # Prompt enhancement & feedback logic
+├── requirements.txt      # Dependencies
+├── sample_prompts.txt    # Example prompts for testing
+├── outputs/              # Generated outputs (optional)
+└── README.md
+
+---
